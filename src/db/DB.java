@@ -40,7 +40,7 @@ public class DB {
 	}
 
 	private static Properties loadProperties() {
-		try(FileInputStream fs = new FileInputStream("C:\\WorkSpaces\\ws-cursoJava\\jdbc1\\db.properties")){
+		try(FileInputStream fs = new FileInputStream("db.properties")){
 			Properties props = new Properties();		
 			props.load(fs);
 			return props;
